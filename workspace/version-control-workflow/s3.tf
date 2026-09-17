@@ -3,6 +3,6 @@ resource "aws_s3_bucket" "mybucket" {
 
   tags = {
     ManagedBy = "Terraform"
+    Workflow = "Version Control Workflow"
   }
-
 }
